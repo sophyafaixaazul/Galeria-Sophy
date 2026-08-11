@@ -1,0 +1,18 @@
+article {
+background-color: pink;
+color: pink;
+padding: 100px;
+}
+
+div img {
+padding: 5px;
+width: 200px;
+height: 200px;
+align-items: center;
+}
+
+.Sophya {
+text-align: center
+}
+
+
