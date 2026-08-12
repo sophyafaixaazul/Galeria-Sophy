@@ -1,18 +1,28 @@
-article {
-background-color: pink;
-color: pink;
-padding: 100px;
+.header {
+  position: relative;
+  text-align: center; 
+  padding-bottom: 20px;
 }
 
-div img {
-padding: 5px;
-width: 200px;
-height: 200px;
-align-items: center;
+.banner {
+  width: 100%;
+  height: 250px; 
+  background-color: pink;
+  background-size: cover;
+  background-position: center;
+  color: pink;
 }
 
-.eu {
-text-align: center
+.Sophya {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%;
+  border: 4px solid #f4f3ef;
+  position: relative;
+  margin-top: -150px; 
+  z-index: 2; 
 }
 
-
+h1 {
+ text-align:center
+}
