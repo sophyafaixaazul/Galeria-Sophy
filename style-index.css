@@ -1,28 +1,34 @@
-.header {
-  position: relative;
-  text-align: center; 
-  padding-bottom: 20px;
+.header{
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.banner {
-  width: 100%;
-  height: 250px; 
-  background-color: pink;
-  background-size: cover;
-  background-position: center;
-  color: pink;
+.banner{
+    background-image: url('banner.jpg');
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
 
-.Sophya {
-  width: 200px; 
-  height: 200px; 
-  border-radius: 50%;
-  border: 4px solid #f4f3ef;
-  position: relative;
-  margin-top: -150px; 
-  z-index: 2; 
+.sophya {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
 }
 
-h1 {
- text-align:center
+img[src='perfil-pic.jpg']{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+body {
+    background-color: black;
 }
