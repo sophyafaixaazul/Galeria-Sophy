@@ -48,5 +48,18 @@ h1 {
     letter-spacing: 1px;
 }
 
-    background-color: black;
+img {
+
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+
+}
+
+section div {
+ display:flex;
+ justify-content: center;
+ flex-wrap: wrap;
 }
