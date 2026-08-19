@@ -55,15 +55,52 @@ img {
     object-fit: cover;
     border-radius: 5px;
     margin: 2%;
+cursor: pointer;
 
 }
 
 .galeria {
-padding: 15px;
- margin-left: 7px;
-margin-right: 7px;
- margin-top: 1%;
- border-width: 0;
+    padding: 15px;
+     margin-left: 7px;
+     margin-right: 7px;
+      margin-top: 1%;
+  border-width: 0;
  border-radius: 0;
 text-align: center;
+
 }
+
+.foto-ampliada {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.foto-ampliada:target {
+    display: flex;
+}
+
+.foto-ampliada img {
+    width: auto;
+    height: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    margin: 0;
+    object-fit: contain;
+}
+
+.fechar-foto {
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    color: white;
+    font-size: 42px;
+    line-height: 1;
+    text-decoration: none;
+}
+
