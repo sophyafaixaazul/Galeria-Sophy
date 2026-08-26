@@ -48,14 +48,14 @@ h1 {
     letter-spacing: 1px;
 }
 
-img {
+.abrir-foto img {
 
     width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 5px;
     margin: 2%;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .abrir-foto {
@@ -68,7 +68,11 @@ cursor: pointer;
 }
 
 .abrir-foto img {
-    margin: 0;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    filter: none;
+    image-rendering: auto;
 }
 
 .foto-toggle {
@@ -99,6 +103,7 @@ text-align: center;
     justify-content: center;
     padding: 24px;
     background: rgba(0, 0, 0, 0.9);
+    object-fit: cover;
 }
 
 .foto-toggle:checked ~ .foto-ampliada {
@@ -106,12 +111,13 @@ text-align: center;
 }
 
 .foto-ampliada img {
-    width: auto;
-    height: auto;
+    width: auto !important;
+    height: auto !important;
     max-width: 90vw;
     max-height: 90vh;
     margin: 0;
     object-fit: contain;
+    filter: none;
 }
 
 .fechar-foto {
